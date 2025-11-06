@@ -96,6 +96,9 @@ button:focus-visible {
 }
 
 header {
+  display: flex;
+  justify-content: space-between;
+
   img {
   }
 
@@ -103,5 +106,10 @@ header {
   }
 
   nav {
+    ul {
+      display: flex;
+      gap: 1rem;
+      list-style: none;
+    }
   }
 }
